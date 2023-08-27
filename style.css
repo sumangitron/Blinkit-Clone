@@ -1,0 +1,244 @@
+.location>h5{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.location>p{
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.vertical-line{
+    height: 55px;
+    border-left: 2px solid #F2F2F2;
+}
+
+.search-div{
+    padding: 0px 12px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    background: rgb(248, 248, 248);
+    color: rgb(130, 130, 130);
+}
+
+.search-div>input{
+    border: none;
+    background: rgb(248, 248, 248);
+    width: 35vw;
+    height: 45px;
+}
+
+::placeholder{
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+
+.my-cart{
+    background-color:#0C831F !important;
+    border-radius: 7px !important;
+    font-size: 14px !important;
+    font-weight: 650 !important;
+}
+
+.categoris{
+    width: 88%;
+}
+
+.my-container{
+    width: 86%;
+    overflow-x: scroll;
+    margin: auto;
+}
+
+.my-list{
+    white-space: nowrap;
+}
+
+.my-list>img{
+    padding: 10px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.my-card{
+    width: 179px;
+    margin-inline: 8px;
+}
+
+.catrgory-section{
+    width: 85%;
+    margin: auto;
+}
+
+.my-card-time{
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+    width: fit-content;
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    padding: 0px 4px;
+}
+
+.my-card-title{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.my-card-weight{
+    color: #777777;
+    font-size: 13px;
+}
+
+.card-price{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.add-button{
+    font-weight: 600 !important;
+    font-size: 13px !important;
+}
+
+.para{
+    font-size: 20px;
+    color: rgb(12, 131, 31);
+    line-height: 32px;
+}
+
+.catrgory-section-row{
+    width: 100%;
+    overflow-x: scroll;
+    margin: auto;
+}
+
+.cat-head{
+    color: rgb(28, 28, 28);
+    font-size: 26px;
+    font-weight: 650;
+    line-height: 32px;
+}
+
+.my-footer{
+    width: 85%;
+    margin: auto;
+}
+
+.row-3{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    margin: 12px;
+    padding: 10px;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.row-2>p{
+    width: 35%;
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+    padding-top: 13px;
+}
+
+.social-btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-inline: 10px;
+}
+
+.download-section>p{
+    font-weight: 600;
+    font-size: 14px;
+    margin: 16px;
+    color: #888888;
+    padding-top: 5px;
+}
+
+.download-btns{
+    background-color: #213B50;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.useful-links{
+    flex: 2;
+    margin: 30px 0px;
+}
+
+.categoris-links{
+    margin: 30px 0px;
+    flex: 3;
+}
+
+td{
+    color: #888888;
+    font-size: 14px;
+    padding: 3px 10px;
+}
+
+table{
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    nav,.row-1,.row-2{
+        flex-direction: column !important;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .hero-section>img{
+        display: none;
+    }
+    .row-2>p{
+        width: 90%;
+    }
+    .useful-links>h5{
+        text-align: center;
+    }
+    .categoris-links>h5{
+        text-align: center;
+    }
+    .social{
+        margin-top: 10px;
+    }
+    .row-1,.my-container{
+        margin-top: 10px;
+    }
+    td{
+        text-align: center;
+    }
+    .search-div,.nav-button{
+        width: 90%;
+    }
+    .location>p{
+        text-align: center;
+    }
+}
